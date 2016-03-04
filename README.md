@@ -1,10 +1,7 @@
-# jim's dotfiles
+# hansonian dotfiles
 
----
-Author: jim hanson
-Modified: Feb 4, 2016
-Github: https://github.com/hansonian/dotfiles.git
+* Author: jim hanson
+* Modified: Feb 4, 2016
+* Github: https://github.com/hansonian/dotfiles.git
 
----
-
-A collection of my current dotfiles, a continual work-in-progress. More will come.
+A collection of dotfiles, an ongoing work-in-progress. More will come.
