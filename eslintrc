@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": 1,
+    "node": 1,
+  },
+	"globals": {
+    "jQuery": 1,
+    "require": 1,
+  },
+	"rules": {
+    "quotes": [2, "single"],
+		"strict": 0,
+  },
+}

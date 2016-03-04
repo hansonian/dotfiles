@@ -1,0 +1,75 @@
+URxvt*title: urxvt
+! Terminus font, love it!
+URxvt.font: xft:Terminus:pixelsize=20
+URxvt.boldfont: xft:Terminus:pixelsize=20
+URxvt.depth: 32
+! Transparent background 94% opacity
+! URxvt.background: [94]#111111
+
+! Solid dark grey background, white foreground
+URxvt.background: #111111
+URxvt.foreground: #ffffff
+URxvt.letterSpace: -0.25
+URxvt.lineSpace: 0
+URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select,fullscreen
+! Launch chromium when URL is grabbed
+URxvt.url-select.launcher:  /usr/bin/chromium-browser -new-tab
+URxvt.url-select.underline: true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+URxvt.keysym.F11: perl:fullscreen:switch
+URxvt.cursorBlink: True
+URxvt.geometry: 160x45
+URxvt*termName: rxvt-256color
+URxvt*scrollBar: false
+URxvt*secondaryscroll: true
+URxvt*cursorBlink: true
+URxvt*cursorColor: #ffcc00
+URxvt*colorBD: #b4927d
+URxvt*colorUL: #57956b
+URxvt.scrollBar_right: 1
+URxvt.scrollBar_floating: 0
+URxvt.underlineURLs: true
+URxvt*shading: 200
+URxvt.loginShell: true
+URxvt.saveLines: 5000
+URxvt.internalBorder: 3
+
+
+! Colors
+! black
+*color0:     #1A2633
+*color8:     #44484C
+
+! red
+*color1:     #802635
+*color9:     #B3354C
+
+! green
+*color2:     #608040
+*color10:    #4BA65A
+
+! yellow
+*color3:     #877C43
+*color11:    #BF9F5F
+
+! blue
+*color4:     #1C678C
+*color12:    #3995BF
+
+! magenta
+*color5:     #684D80
+*color13:    #A64286
+
+! cyan
+*color6:     #337373
+*color14:    #6AAAB3
+
+!White
+*color7:   #eeeeee
+*color15:  #ffffff
+!
+!!! Use for FVWM
+!FvwmConsole*VT100*geometry: 40x4
+!FvwmConsole*font: 7x14
